@@ -12,7 +12,7 @@ MY_TOKEN = '1jF9U0UInXafq4EZlapcEy4QkQizJ99uL'
 @app.route('/', defaults={'path': ''})
 @app.route('/<path:path>')
 def proxy(path):
-    target_url = f"https://flingster.com/{path}"
+    target_url = f"https://hi/{path}"
     
     try:
         # Flingster se page maangna using Cloudscraper
